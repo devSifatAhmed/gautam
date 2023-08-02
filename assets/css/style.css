@@ -1,0 +1,101 @@
+.text-theme-primary{
+    color: #7788F8 !important;
+}
+.bg-theme-primary{
+    background: #7788F8 !important;
+}
+.h-text-theme-primary{
+    transition: 0.3s ease-in-out !important;
+}
+.h-text-theme-primary:hover{
+    color: #7788F8 !important;
+}
+.custom-h-dropdown{
+    padding: 0 !important;
+    border: 1px solid #ddd !important;
+}
+.custom-h-dropdown>li>a{
+    line-height: 3 !important;
+    padding: 0 20px !important;
+    border-bottom: 1px solid #ddd !important;
+    transition: 0.3s ease-in-out !important;
+}
+.custom-h-dropdown>li>a:hover{
+    background: #7788F8 !important;
+    color: white !important;
+}
+.cus-slider-btn-prev{
+    transform: translate(-550px, 290px);
+    height: 45px !important; padding: 10px !important;
+    max-width: 70px; opacity: 100% !important;
+}
+.cus-slider-btn-next{
+    transform: translate(-1120px, 290px); 
+    height: 45px !important; padding: 10px !important;
+    max-width: 70px; opacity: 100% !important;
+}
+@media(max-width: 1345px){
+    .cus-slider-btn-prev{
+        transform: translate(-40vw, 290px);
+    }
+    .cus-slider-btn-next{
+        transform: translate(-82vw, 290px);
+    }
+}
+@media(max-width: 1135px){
+    .cus-slider-btn-next{
+        transform: translate(-80vw, 290px);
+    }
+    .hero-title{
+        font-size: 2.9rem !important;
+    }
+    .choose-us-title{
+        font-size: 3.9rem !important;
+    }
+    .our-examples-title{
+        font-size: 3.2rem !important;
+    }
+}
+@media(max-width: 1020px){
+    .cus-slider-btn-next{
+        transform: translate(-78vw, 290px);
+    }
+    .hero-title{
+        font-size: 2.5rem !important;
+    }
+    .choose-us-title{
+        font-size: 3.5rem !important;
+    }
+    .our-examples-title{
+        font-size: 2.8rem !important;
+    }
+}
+@media(max-width: 930px){
+    .cus-slider-btn-next{
+        top: calc(100% + 20px);
+        right: calc(50% - 70px);
+        transform: translate(50%, 0);
+    }
+    .cus-slider-btn-prev{
+        top: calc(100% + 20px);
+        left: calc(50% - 70px);
+        transform: translate(-50%, 0);
+    }
+    .choose-us-title{
+        font-size: 3.2rem !important;
+    }
+}
+@media(max-width: 767px){
+    .choose-us-header{
+        text-align: center;
+    }
+    .our-examples-header{
+        text-align: center;
+    }
+    .our-examples-title{
+        font-size: 2.6rem !important;
+    }
+    .choose-us-title{
+        font-size: 3.0rem !important;
+    }
+}

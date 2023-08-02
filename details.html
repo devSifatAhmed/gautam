@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/home-page.css">
+    <style>
+        .f-social-icon > a{
+            transition: 0.3s ease-in-out;
+        }
+        .f-social-icon > a:hover{
+            background: #7788F8 !important;
+        }
+        @media(max-width: 767px){
+            .cus-container{
+                max-width: 700px !important;
+            }
+            .cus-social-form{
+                flex-basis: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- header section start -->
+    <header class="bg-white d-flex flex-column w-100">
+        <!-- header top start -->
+        <div class="w-100 bg-dark px-2">
+            <div class="container-xxl d-flex justify-content-between align-items-center">
+                <p class="text-white fs-6 fw-normal mt-3">This announcement bar can be used to inform visitors of <span class="fw-bold text-theme-primary">something important!</span></p>
+
+                <div class="d-flex align-items-center gap-1">
+                    <i class="bi bi-globe text-white fs-6 mt-1"></i>
+                    <select class="bg-dark text-white p-0 shadow-none border-0" aria-label="Default select example">
+                        <option selected>English</option>
+                        <option value="1">Bangla</option>
+                        <option value="2">Hindi</option>
+                        <option value="3">Arabic</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!-- header top end -->
+
+        <!-- header bottom start -->
+        <div class="w-100 bg-white py-1">
+            <div class="container-xxl">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid gap-4">
+                    <!-- site logo start -->
+                      <a class="navbar-brand" href="./"><img src="./assets/images/logo.svg" alt="Logo"></a>
+                    <!-- site logo end -->
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- nav menu lists start -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                          <li class="nav-item">
+                            <a class="nav-link h-text-theme-primary fs-5 fw-bold text-dark" href="./">Home</a>
+                          </li>
+                          <!-- sub menu start -->
+                          <li class="nav-item dropdown">
+                            <a class="nav-link h-text-theme-primary fs-5 fw-bold text-dark" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Features <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu custom-h-dropdown" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <!-- sub menu end -->
+                          <li class="nav-item">
+                            <a class="nav-link h-text-theme-primary fs-5 fw-bold text-dark" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link h-text-theme-primary fs-5 fw-bold text-dark" href="#">Help</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link h-text-theme-primary fs-5 fw-bold text-dark" href="#">Contact Us</a>
+                          </li>
+                        </ul>
+                        <!-- nav menu lists end -->
+                        <!-- sign-up/sign-in buttons start -->
+                        <div class="d-flex gap-3">
+                          <a href="#" class="fs-5 fw-bold text-theme-primary btn">Sign in</a>
+                          <a href="#" class="btn px-4 fs-5 fw-bold bg-theme-primary rounded-pill text-white">Get Started</a>
+                        </div>
+                        <!-- sign-up/sign-in buttons end -->
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!-- header bottom end -->
+    </header>
+    <!-- header section end -->
+
+    <!-- form section start -->
+    <section class="py-5" style="background: #F1F3FF;">
+        <div class="container cus-container px-xxl-5 px-md-2 d-flex flex-column align-items-center">
+            <!-- form start -->
+            <div class="w-100 bg-white py-5 px-xxl-4 px-md-2 shadow-lg mx-5" style="border-radius: 15px;">
+                <!-- personal details part start -->
+                <div class="w-100 d-flex flex-column gap-2 text-center">
+                    <h3 class="fs-2 text-dark">Enter Your Details</h3>
+                    <p class="text-dark fs-4 fw-bold">Enter Your Details</p>
+
+                    <div class="w-100 d-flex gap-3 px-2 flex-wrap justify-content-between">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="Email *">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="Website">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="First Name">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="Last Name">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="Title">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="Office Phone">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="Work Phone">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="Mobile Phone">
+                        <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF; flex-basis: calc(50% - 1rem); min-width: 170px;" type="text" placeholder="Address/GoogleMaps Link *">
+                    </div>
+                </div>
+                <!-- personal details part end -->
+
+                <!-- social media details part start -->
+                <div class="w-100 d-flex flex-column gap-2 text-center mt-5">
+                    <p class="text-dark fs-4 fw-bold">Social Media</p>
+
+                    <div class="w-100 d-flex gap-3 px-2 flex-wrap justify-content-between">
+                        <div class="cus-social-form d-flex gap-2 align-items-center" style="flex-grow: 1; flex-basis: calc(50% - 1rem); min-width: 170px;">
+                            <span class="d-flex fs-4 justify-content-center align-items-center rounded-circle" style="height: 56px; width: 56px; background: #F1F3FF;"><i class="bi bi-twitter"></i></span>
+                            <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF;" type="text" placeholder="Twitter">
+                        </div>
+                        <div class="cus-social-form d-flex gap-2 align-items-center" style="flex-grow: 1; flex-basis: calc(50% - 1rem); min-width: 170px;">
+                            <span class="d-flex fs-4 justify-content-center align-items-center rounded-circle" style="height: 56px; width: 56px; background: #F1F3FF;"><i class="bi bi-facebook"></i></span>
+                            <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF;" type="text" placeholder="Facebook">
+                        </div>
+                        <div class="cus-social-form d-flex gap-2 align-items-center" style="flex-grow: 1; flex-basis: calc(50% - 1rem); min-width: 170px;">
+                            <span class="d-flex fs-4 justify-content-center align-items-center rounded-circle" style="height: 56px; width: 56px; background: #F1F3FF;"><i class="bi bi-instagram"></i></span>
+                            <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF;" type="text" placeholder="Instagram">
+                        </div>
+                        <div class="cus-social-form d-flex gap-2 align-items-center" style="flex-grow: 1; flex-basis: calc(50% - 1rem); min-width: 170px;">
+                            <span class="d-flex fs-4 justify-content-center align-items-center rounded-circle" style="height: 56px; width: 56px; background: #F1F3FF;"><i class="bi bi-pinterest"></i></span>
+                            <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF;" type="text" placeholder="Pinterest">
+                        </div>
+                        <div class="cus-social-form d-flex gap-2 align-items-center" style="flex-grow: 1; flex-basis: calc(50% - 1rem); min-width: 170px;">
+                            <span class="d-flex fs-4 justify-content-center align-items-center rounded-circle" style="height: 56px; width: 56px; background: #F1F3FF;"><i class="bi bi-linkedin"></i></span>
+                            <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF;" type="text" placeholder="LinkedIn">
+                        </div>
+                        <div class="cus-social-form d-flex gap-2 align-items-center" style="flex-grow: 1; flex-basis: calc(50% - 1rem); min-width: 170px;">
+                            <span class="d-flex fs-4 justify-content-center align-items-center rounded-circle" style="height: 56px; width: 56px; background: #F1F3FF;"><i class="bi bi-globe"></i></span>
+                            <input class="border-0 fs-6 py-3 px-4 rounded-pill text-dark fw-normal flex-grow-1" style="outline: none; background: #F1F3FF;" type="text" placeholder="Others">
+                        </div>
+                    </div>
+                </div>
+                <!-- social media details part end -->
+            </div>
+            <!-- form end -->
+
+            <!-- form buttons start -->
+            <div class="w-100 py-5 px-md-2 d-flex justify-content-between align-items-center mt-4">
+                <a href="#" class="btn py-3 px-5 fs-6 fw-bold text-white rounded-pill" style="background: #868898;">Previous</a>
+                <a href="#" class="btn py-3 px-5 fs-6 fw-bold text-white rounded-pill bg-theme-primary">Previous</a>
+            </div>
+            <!-- form buttons end -->
+        </div>
+    </section>
+    <!-- form section end -->
+
+    <!-- footer section start -->
+    <footer class="pt-5 pb-3" style="background: #07090D;">
+        <div class="container-xxl my-5">
+            <div class="w-100 d-flex flex-column align-items-center text-center gap-3">
+                <a href="./" class="text-decoration-none d-flex gap-2 align-items-center"><img src="./assets/images/logo.svg" alt="Image"> <span class="fs-2 fw-bold text-white">Logo</span></a>
+                <p class="text-white-50 fs-6" style="max-width: 430px;">Lorem ipsum dolor sit amet, consectetur adip elit.
+                    Posuere dolor massa, pellentesque aliquam nisl facilisis sed.</p>
+                <div class="w-100 my-4" style="height: 1px; background: #1B212C;"></div>
+                <div class="w-100 d-flex gap-4 align-items-center justify-content-center f-social-icon">
+                    <a href="#" class="fs-6 text-white rounded-circle d-flex justify-content-center align-items-center" style="background: #ffffff2e; width: 40px; height: 40px;"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="fs-6 text-white rounded-circle d-flex justify-content-center align-items-center" style="background: #ffffff2e; width: 40px; height: 40px;"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="fs-6 text-white rounded-circle d-flex justify-content-center align-items-center" style="background: #ffffff2e; width: 40px; height: 40px;"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

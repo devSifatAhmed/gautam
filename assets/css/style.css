@@ -163,5 +163,5 @@ body{
 .container-xxl{
     width: 100%;
     flex-grow: 1;
-    max-width: 1400px !important;
+    max-width: 1440px !important;
 }

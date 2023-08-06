@@ -157,7 +157,8 @@ body{
         max-width: 700px !important;
     }
     .cus-social-form{
-        flex-basis: 100% !important;
+        flex-basis: calc(100% - 2rem) !important;
+        margin: 0 1rem !important;
     }
 }
 .container-xxl{
@@ -173,7 +174,6 @@ body{
     .cus-social-form{
         flex-wrap: wrap !important;
         justify-content: center !important;
-        margin-bottom: 15px !important;
-        padding: 0 13px !important;
+        padding-bottom: 15px !important;
     }
 }

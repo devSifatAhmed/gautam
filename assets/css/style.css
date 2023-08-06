@@ -176,4 +176,8 @@ body{
         justify-content: center !important;
         padding-bottom: 15px !important;
     }
+    input{
+        min-width: 50px;
+        width: 100%;
+    }
 }
